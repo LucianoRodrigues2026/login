@@ -3,16 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/mobilefrist.css">
+  <link rel="stylesheet" href="style/outrastelas.css">
   <title>login</title>
 </head>
 <body>
   <main>
-    <section>
-      <div id="imagen">foto</div>
+    <section id="login">
+      <div id="imagen">
+
+      </div>
       <div id="formulario">
         <h1>Login</h1>
         <p>Seja munto bem-vindo(a) novamente. Faça login para acessar sua conta e fazer novas coinfigurações no seu ambiente. </p>
         <form action="login/login.js" method="post">
+
+          <label for="usuario">Usuario</label>
+          <br>
+          <input type="text" name="nomeUsuario" id="usuari">
+          <br>
+          <label for="senha">Senha</label>
+          <br>
+          <input type="password" name="passSenha" id="senha">
+          <br>
+          <br>
+          <input id="confirmar" type="button" value="Login">
+          <br>
+          <input id="cancelar" type="reset" value="Cancelar">
 
         </form>
       </div>

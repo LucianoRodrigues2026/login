@@ -1,0 +1,66 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+body{
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, #00ffb7 1%,#6907c5, #510598);
+}
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+section#login{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  text-align: justify;
+  background-color: white;
+  width: 250px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.504);
+
+}
+section#login > div#imagen {
+  display: block;
+  width: 250px;
+  height: 170px;
+  background-image: url(../imagen/duilding.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section#login > div#formulario{
+  display: block;
+  padding: 10px;
+
+  #confirmar {
+    border-radius: 10px;
+    background-color: #1473e6;
+    height: 30px;
+    width: 218px;
+}
+  #cancelar {
+    border-radius: 10px;
+    background-color: #7b0000;
+    height: 30px;
+    width: 218px;
+ 
+}
+
+}
