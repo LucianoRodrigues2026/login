@@ -2,7 +2,7 @@
 
 
 /*para tabletes*/
-@media screen and (min-width:700px) and (max-width:900px) {
+@media screen and (min-width:668px) and (max-width:800px) {
   section#login{
   
     width: 90vw;
@@ -27,4 +27,30 @@
       }
     }
 
+}
+
+/*para pc e telas maiores*/
+@media screen and (min-width: 801px) {
+  section#login {
+    width: 950px;
+  }
+  section#login > div#imagen{
+      float: right;
+      width: 50%;
+      height: 100%;
+      background-position: right bottom;
+      background-size: cover;
+
+    }
+  section#login > div#formulario {
+      float: left;
+      width: 50%;
+      #confirmar{
+        float: left;
+      }
+      #cancelar{
+        float: right;
+      }
+    }
+  
 }
