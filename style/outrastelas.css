@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+/*para tabletes*/
+@media screen and (min-width:700px) and (max-width:900px) {
+  section#login{
+  
+    width: 90vw;
+    
+  }
+  section#login > div#imagen{
+      float: left;
+      width: 30%;
+      height: 100%;
+      background-position: right bottom;
+      background-size: cover;
+
+    }
+  section#login > div#formulario {
+      float: right;
+      width: 70%;
+      #confirmar{
+        float: left;
+      }
+      #cancelar{
+        float: right;
+      }
+    }
+
+}
