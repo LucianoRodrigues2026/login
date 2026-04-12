@@ -40,7 +40,7 @@ section#login > div#imagen {
   display: block;
   width: 250px;
   height: 170px;
-  background-image: url(../imagen/duilding.jpg);
+  background: #6907c5 url(../imagen/duilding.jpg);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
