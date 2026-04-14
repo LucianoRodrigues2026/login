@@ -30,7 +30,7 @@ section#login{
 
   text-align: justify;
   background-color: white;
-  width: 250px;
+  width: 290px;
   height: 500px;
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.504);
@@ -40,6 +40,7 @@ section#login{
   p{
     font-size: .8em;
     text-indent: 20px;
+    margin-bottom: 9px;
   }
   h1 {
     text-align: center;
@@ -50,7 +51,7 @@ section#login{
 }
 section#login > div#imagen {
   display: block;
-  width: 250px;
+  width: 290px;
   height: 170px;
   background: #6907c5 url(../imagen/duilding.jpg);
   background-position: right bottom;
@@ -71,6 +72,11 @@ form > input[type=submit] {
   background-color: #00ffa0;
   height: 30px;
   width: 100%;
+  color: #510598;
+
+}
+input[type=submit]:hover {
+  background-color: #01a066;
   color: #fff;
 
 }
@@ -87,24 +93,24 @@ div.loginformat{
     font-size: 2em;
     width: 40px;
     color: #510598;
-    transform: translate(-1px, 5px);
+    transform: translate(-10px, 5px);
   
 
   }
   input{
     background-color: #510598;
-    width: calc(100%-50px);
+    width: calc(100%-4px);
     height: 90%;
     border: none;
-    display: inline;
     border-radius: 10px;
     text-indent: 10px;
     transform: translateY(-4.9px);
-    padding-right: 30px;
+  
   }
   input:focus{
     background-color: #ffffff;
   }
+
 
   label{
     display: none;

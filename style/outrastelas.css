@@ -33,12 +33,12 @@
         width: 200px;
       }
     }
-    div.loginformat{
+    /*div.loginformat{
       input{
         width: calc(100% - 50px);
       }
     }
-  
+  */
 
 }
 
@@ -73,10 +73,10 @@
         width: 200px;
       }
     }
-    div.loginformat{
+    /*div.loginformat{
       input{
         width: calc(100% - 50px);
       }
-    }
+    }*/
   
 }
