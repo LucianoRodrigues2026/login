@@ -77,26 +77,33 @@ form > input[type=submit] {
 div.loginformat{
   border-radius:10px;
   text-align: center;
-  padding: 5px;
+  height: 43px;
   background-color: #00ffb7;
   margin: 5px 0px;
+  overflow: hidden;
+
   
   span{
     font-size: 2em;
-    width: 20%;
-    display: inline;
+    width: 40px;
     color: #510598;
+    transform: translate(-1px, 5px);
   
 
   }
   input{
-    display: inline;
-    width: 80%;
+    background-color: #510598;
+    width: calc(100%-29px);
+    height: 90%;
     border: none;
     display: inline;
     border-radius: 10px;
     text-indent: 10px;
-    padding: 5px 0px;
+    transform: translateY(-4.9px);
+    padding-right: 30px;
+  }
+  input:focus{
+    background-color: #ffffff;
   }
 
   label{
