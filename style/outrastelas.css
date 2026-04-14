@@ -4,8 +4,10 @@
 /*para tabletes*/
 @media screen and (min-width:668px) and (max-width:800px) {
   section#login{
-  
     width: 90vw;
+    p{
+      font-size: 1em;
+    }
     
   }
   section#login > div#imagen{
@@ -21,9 +23,18 @@
       width: 70%;
       #confirmar{
         float: left;
+        height: 30px;
+        width: 200px;
       }
-      #cancelar{
+      #esqueci{
         float: right;
+        height: 30px;
+        width: 200px;
+      }
+    }
+    div.loginformat{
+      input{
+        width: 90%;
       }
     }
 
@@ -32,7 +43,10 @@
 /*para pc e telas maiores*/
 @media screen and (min-width: 801px) {
   section#login {
-    width: 950px;
+    width: 900px;
+    p{
+      font-size: 1em;
+    }
   }
   section#login > div#imagen{
       float: right;
@@ -47,9 +61,17 @@
       width: 50%;
       #confirmar{
         float: left;
+        height: 30px;
+        width: 200px;
       }
-      #cancelar{
+      #esqueci{
         float: right;
+        width: 200px;
+      }
+    }
+    div.loginformat{
+      input{
+        width: 90%;
       }
     }
   

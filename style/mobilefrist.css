@@ -14,7 +14,7 @@ body{
   height: 100vh;
 
   background-repeat: no-repeat;
-  background-image: linear-gradient(to top, #00ffb7 1%,#6907c5, #510598);
+  background-image: linear-gradient(to top, #00ffa0 1%,#6907c5, #510598);
 }
 main {
   position: relative;
@@ -37,6 +37,15 @@ section#login{
 
   transition: width .5s, heigth .5s;
   transition-timing-function: ease;
+  p{
+    font-size: .8em;
+    text-indent: 20px;
+  }
+  h1 {
+    text-align: center;
+    font-variant: small-caps;
+
+  }
 
 }
 section#login > div#imagen {
@@ -52,18 +61,67 @@ section#login > div#formulario{
   display: block;
   padding: 10px;
 
-  #confirmar {
-    border-radius: 10px;
-    background-color: #1473e6;
-    height: 30px;
-    width: 218px;
+
 }
-  #cancelar {
-    border-radius: 10px;
-    background-color: #7b0000;
-    height: 30px;
-    width: 218px;
- 
+
+form > input[type=submit] {
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #00ffa0;
+  height: 30px;
+  width: 100%;
+  color: #fff;
+
 }
+div.loginformat{
+  border-radius:10px;
+  text-align: center;
+  padding: 5px;
+  background-color: #00ffb7;
+  margin: 5px 0px;
+  
+  span{
+    font-size: 2em;
+    width: 20%;
+    display: inline;
+    color: #510598;
+  
+
+  }
+  input{
+    display: inline;
+    width: 80%;
+    border: none;
+    display: inline;
+    border-radius: 10px;
+    text-indent: 10px;
+    padding: 5px 0px;
+  }
+
+  label{
+    display: none;
+  }
+}
+#esqueci{
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  height: 30px;
+  text-align: center; 
+  border-radius: 10px;
+  border: 1px solid #01a066;
+  font-size: .9em;
+  padding: 5px;
+  a{
+    text-decoration: none;
+    
+  }
+  span{
+    font-size: .9em;
+  }
+}
+#esqueci:hover{
+  background-color: #01a066;
 
 }
