@@ -12,6 +12,7 @@
 }
 body{
   height: 100vh;
+  background-attachment: fixed;
 
   background-repeat: no-repeat;
   background-image: linear-gradient(to top, #00ffa0 1%,#6907c5, #510598);
