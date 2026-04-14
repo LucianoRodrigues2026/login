@@ -65,21 +65,7 @@ section#login > div#formulario{
 
 }
 
-form > input[type=submit] {
-  margin-top: 5px;
-  border-radius: 10px;
-  border: none;
-  background-color: #00ffa0;
-  height: 30px;
-  width: 100%;
-  color: #510598;
 
-}
-input[type=submit]:hover {
-  background-color: #01a066;
-  color: #fff;
-
-}
 div.loginformat{
   border-radius:10px;
   text-align: center;
@@ -93,13 +79,14 @@ div.loginformat{
     font-size: 2em;
     width: 40px;
     color: #510598;
-    transform: translate(-10px, 5px);
+    transform: translate(-3px, 5px);
   
 
   }
   input{
     background-color: #510598;
-    width: calc(100%-4px);
+    /*OBS: aprestar atençõa nos operadores (-) e (+) dentro da função calc() tem que a ver um espaço em branco entre cada grandesa 100% espaço - espaço 50px*/
+    width: calc(100% - 50px);
     height: 90%;
     border: none;
     border-radius: 10px;
@@ -116,6 +103,21 @@ div.loginformat{
     display: none;
   }
 }
+form > input[type=submit] {
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #00ffa0;
+  height: 40px;
+  width: 100%;
+  color: #510598;
+
+}
+input[type=submit]:hover {
+  background-color: #01a066;
+  color: #fff;
+
+}
 #esqueci{
   display: block;
   margin-top: 8px;
@@ -124,17 +126,22 @@ div.loginformat{
   text-align: center; 
   border-radius: 10px;
   border: 1px solid #01a066;
-  font-size: .9em;
+  font-size: 1em;
   padding: 5px;
   a{
     text-decoration: none;
     
   }
   span{
-    font-size: .9em;
+    font-size: 1em;
   }
 }
 #esqueci:hover{
   background-color: #01a066;
-
+  a {
+    color: #ffffff;
+  }
+  span {
+    color: #ffffff;
+  }
 }
