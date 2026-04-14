@@ -29,7 +29,7 @@
       }
       #esqueci{
         float: right;
-        height: 30px;
+        height: 40px;
         width: 200px;
       }
     }
@@ -65,7 +65,7 @@
       width: 50%;
       #confirmar{
         float: left;
-        height: 30px;
+        height: 40px;
         width: 200px;
       }
       #esqueci{
