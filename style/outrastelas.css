@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /*para tabletes*/
 @media screen and (min-width:768px) and (max-width:900px) {
   section#login{

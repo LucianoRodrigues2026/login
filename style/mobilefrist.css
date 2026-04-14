@@ -26,7 +26,7 @@ section#login{
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  
   overflow: hidden;
 
   text-align: justify;
@@ -38,6 +38,8 @@ section#login{
 
   transition: width .5s, heigth .5s;
   transition-timing-function: ease;
+  /*todo trnasformação tem q ser a ultima linha do seletor*/
+  transform: translate(-50%, -50%);
   p{
     font-size: .8em;
     text-indent: 20px;
@@ -92,6 +94,7 @@ div.loginformat{
     border: none;
     border-radius: 10px;
     text-indent: 10px;
+    /*todo trnasformação tem q ser a ultima linha do seletor*/
     transform: translateY(-4.9px);
   
   }
